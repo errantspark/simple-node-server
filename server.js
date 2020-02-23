@@ -2,7 +2,7 @@ const red = '\x1b[31m'
 const blue = '\x1b[36m'
 const reset = '\x1b[0m'
 
-const DEV = !!process.argv[1]
+const DEV = !!process.argv[2]
 
 import fs from 'fs'
 import path from 'path'
